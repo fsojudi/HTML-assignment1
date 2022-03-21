@@ -1,0 +1,43 @@
+body{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;background-color: aquamarine;
+}
+header>nav>ul{
+    list-style: none;
+    
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font: size 10px;
+    text-align: center;
+}
+.flex-item-left{
+    background-color: bisque;
+    padding: 10px;
+    flex-grow: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+ }
+ .flex-item-center{
+     background-color: aqua;
+     padding: 10px;
+     flex-grow: 1;
+    
+     
+ }
+ header>nav>ul>li{
+    margin: auto;
+    
+ }
+ .flex-item-right{
+     background-color: coral;
+     padding: 10px;
+     flex-grow: 1;
+     font-size: x-large;
+
+ }
+
