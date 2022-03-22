@@ -34,6 +34,11 @@ header>nav>ul{
  }
  header>nav>ul>li{
     margin: auto;
+    background-color: rgba(97, 207, 209, 0.863);
+    color: aliceblue;
+    padding:10px;
+    font-size:large;
+
     
  }
  .flex-item-right{
@@ -41,6 +46,7 @@ header>nav>ul{
      padding: 10px;
      flex-grow: 1;
      font-size: x-large;
+     margin-right: 0px;
 
  }
 
@@ -51,6 +57,7 @@ header>nav>ul{
     grid-template-rows: auto auto auto auto auto auto;
     gap: 10px;
    padding: 10px;
+   margin: 0px
    
  }
 
@@ -62,22 +69,44 @@ header>nav>ul{
      grid-row-end: 2;
      background-color: rgb(238, 146, 34);
      justify-content: center;
+     margin-right: 500px;
+     padding: 10px
  }
-main p{
+#subText{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 3;
     background-color:blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    justify-content:center;
+    
     
  }
- main article{
+ #articleZone{
+     display: grid;
+     gap: 5px;
+   
+ }
+ .articleone{
+     display: grid;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 6;
     background-color:darkcyan;
+    justify-content: center;
+ }
+ .articletwo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color:darkcyan;
+    justify-content: center;
+
  }
 
  aside{
@@ -86,6 +115,7 @@ main p{
     grid-row-start: 1;
     grid-row-end: 6;
     background-color:rgb(72, 202, 20);
+    
  }
 
  footer{
@@ -96,6 +126,68 @@ main p{
     background-color:rgb(226, 233, 223);
 
  }
+
+ .loginFlex-container{
+    display: flex;
+    flex-direction: row;
+    font: size 10px;
+    text-align: center;
+}
+.loginFlex-item-left{
+    background-color: bisque;
+    padding: 10px;
+    flex-grow: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+ }
+ .loginFlex-item-center{
+     background-color: aqua;
+     padding: 10px;
+     flex-grow: 1;
+     
+ }
+ .loginFlex-item-right{
+    background-color: coral;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: x-large;
+    margin-right: 0px;
+
+}
+
+main h1{
+    margin-right: 800px;
+   
+    background-color:rgb(167, 144, 111);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 10px;
+    justify-content:center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+
+}
+form{
+    display:block;
+    text-align: center;
+    margin-left: 20px;
+border-radius: 5px;
+    margin-right: 40px;
+    background-color:brown;
+    color: aliceblue;
+    padding: 10px;
+    justify-content:center;
+
+   }
+   #signInButton{
+       color: aliceblue;
+       background-color: green;
+   }
+
+   
+
+
 
 
 

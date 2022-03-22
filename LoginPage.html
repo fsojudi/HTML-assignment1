@@ -9,32 +9,36 @@
 
     </head>
     <body>
-        <header>
-           <h1>Logo</h1> 
-           <nav>
-               <ul>
-                   <li><a href="LoginPage.html">Sun Roof</a></li>
-                   <li><a href="LoginPage.html">Air Bag</a></li>
-                   <li><a href="LoginPage.html">Hybrid</a></li>
-               </ul>
-               <a href="BasicHTML.html">Basic</a>
-           </nav>
-        </header>
-        <main>
-            <h1>User Login</h1>
+    <header class="loginFlex-container">
+            <h1 class="oddText loginFlex-item-left">Logo</h1>       
+        <nav class="loginFlex-item-center">
+            <ul class="loginFlex-container">
+               <li><a href="LoginPage.html">Sun Roof</a> </li>
+               <li><a href="LoginPage.html"> Air Bag</a></li>
+               <li><a href="LoginPage.html">Hybrid</a></li>
+            </ul>
+       </nav> 
+       <a class="loginFlex-item-right" href="BasicHTML.html">Basic</a>
+       
+    </header>
+
+        <div>
+        <main >
+            <h1 >User Login</h1>
             <section id="formInputs">
                 <form>
                     <label>Username</label>
-                    <input type="text" name="Username" placeholder="..." >
+                    <input type="email" name="Username" placeholder="..." >
                     <label>Password</label>
-                    <input type="email" name="Password" placeholder="...">
-                    <button>reset</button>
-                    <button>Sign in</button>
+                    <input type="text" name="Password" placeholder="...">
+                    <button >reset</button>
+                    <button id="signinButton">Sign in</button>
 
                 </form>
             </section>
         
         </main>
+    </div>
         <footer>
             <p>Made by <span>&copy; Fatemeh</span> </p>
         </footer>
